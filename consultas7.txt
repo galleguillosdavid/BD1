@@ -1,0 +1,30 @@
+
+
+SELECT
+    "PREGUNTA 1".*
+FROM
+    pres_serv "PREGUNTA 1"
+WHERE
+    "PREGUNTA 1".fecha BETWEEN ( '01/10/2018' ) AND (
+    '26/11/2018' );
+-----------------------------------------------
+
+SELECT
+    *
+FROM
+    pres_serv "PREGUNTA 2"
+ORDER BY
+    "PREGUNTA 2".vehiculo_idvehiculo
+
+------------------------------------------------
+
+SELECT
+    "PREGUNTA 3".vehiculo_idvehiculo,
+    COUNT(*)
+FROM
+    pres_serv "PREGUNTA 3"
+GROUP BY
+    "PREGUNTA 3".vehiculo_idvehiculo
+ORDER BY
+    "PREGUNTA 3".vehiculo_idvehiculo DESC
+    
