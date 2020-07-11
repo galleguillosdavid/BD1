@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Ve-Pr" directorySegmentName="seg_0" id="5A23341E-152F-F1BA-B21E-83927346B493">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 16:27:47 UTC</createdTime>
+<ownerDesignName>7</ownerDesignName>
+<engineerTo>
+<item key="7EFB1058-02E0-50A3-0F3E-B112FD85D9DF" value="true"/>
+</engineerTo>
+<sourcePk>7E11D83E-6E3E-80AA-E41F-D436907FDF4D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2B77063F-002B-96C4-409B-FB166E51C775</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4EC0633A-4363-4288-D5C6-0346A4B2FBB0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="942E1EAB-C199-2FFD-4A8D-D999F121E041" name="Pres_Serv">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 16:28:12 UTC</createdTime>
+<generatorID>4EC0633A-4363-4288-D5C6-0346A4B2FBB0</generatorID>
+<ownerDesignName>7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdPresServ" id="B5B4E23D-6B6F-2EDB-D036-0930AD8AC304">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 16:28:12 UTC</createdTime>
+<generatorID>86D8F75C-1E35-518A-5561-6891D4CBA45F</generatorID>
+<ownerDesignName>7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha" id="6D9C78A5-57A4-D380-5A91-058C91B71B68">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 16:28:12 UTC</createdTime>
+<generatorID>E370815A-7565-05D8-80A0-D5D5FA563990</generatorID>
+<ownerDesignName>7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empleado_idempleado" id="0ADC1EAE-0DA6-5C7B-9011-5F8C9FB70D91">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 16:28:12 UTC</createdTime>
+<generatorID>E067D23B-F827-4366-55C1-C4E974331BB3</generatorID>
+<ownerDesignName>7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2BE0A2E0-3D9A-4675-8CF4-167F76284A8F" referredColumn="106106A1-9995-9980-5174-695B4B366FE3"/>
+</associations>
+</Column>
+<Column name="Servicio_IdServicio" id="82F7B3B3-6123-E120-1CF1-E435492AA04E">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 16:28:12 UTC</createdTime>
+<generatorID>24E8F0D5-34C4-A03D-4394-F40122135BD3</generatorID>
+<ownerDesignName>7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E7F3972-F98C-D1AC-592D-F7DC8D8E1B6C" referredColumn="D4FE168C-629B-EBBC-A3E7-2136D2A556E5"/>
+</associations>
+</Column>
+<Column name="Vehiculo_IdVehiculo" id="AD347C62-CF46-B1D1-C031-C1E6F7FC28A7">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 16:28:12 UTC</createdTime>
+<generatorID>9F6120DA-C9F2-5578-B07B-4B6F25DCD9A1</generatorID>
+<ownerDesignName>7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ABA3FA9E-3E4F-30A6-3E16-7B8C6373AEB6" referredColumn="DB268147-3596-BECB-7FAF-74D6C30F7B51"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD54AD57-DEF8-1637-0D01-89504ED6D6AA" name="Pres_Serv_PK">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 16:28:12 UTC</createdTime>
+<generatorID>71B8C2E3-A028-B12B-143A-2D62AD21AB4D</generatorID>
+<ownerDesignName>7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5B4E23D-6B6F-2EDB-D036-0930AD8AC304"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="80A86F77-081A-28EF-C981-B8C96A28FA9A" name="Pres_Serv_Empleado_FK">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 16:28:12 UTC</createdTime>
+<generatorID>73D1FC0B-2BD1-8C63-6A93-6680FEE279DE</generatorID>
+<ownerDesignName>7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0ADC1EAE-0DA6-5C7B-9011-5F8C9FB70D91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C7DDB42-4A76-077F-4B85-08F09FE4793A" name="Pres_Serv_Servicio_FK">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 16:28:12 UTC</createdTime>
+<generatorID>B363ACBF-C2A1-E1C3-077F-67AEEFB069F6</generatorID>
+<ownerDesignName>7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82F7B3B3-6123-E120-1CF1-E435492AA04E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F4B1AB1-05E2-3C02-C4C0-E6A97FA98D76" name="Pres_Serv_Vehiculo_FK">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 16:28:12 UTC</createdTime>
+<generatorID>5A23341E-152F-F1BA-B21E-83927346B493</generatorID>
+<ownerDesignName>7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD347C62-CF46-B1D1-C031-C1E6F7FC28A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

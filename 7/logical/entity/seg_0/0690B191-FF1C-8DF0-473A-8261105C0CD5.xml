@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0690B191-FF1C-8DF0-473A-8261105C0CD5" name="Servicio">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 15:09:35 UTC</createdTime>
+<ownerDesignName>7</ownerDesignName>
+<engineerTo>
+<item key="7EFB1058-02E0-50A3-0F3E-B112FD85D9DF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdServicio" id="8287E453-075D-6847-9B75-E89721BF8906">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 15:09:45 UTC</createdTime>
+<ownerDesignName>7</ownerDesignName>
+<engineerTo>
+<item key="7EFB1058-02E0-50A3-0F3E-B112FD85D9DF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NombreServicio" id="78199871-BB86-5E42-3C65-C9710C34BDC3">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 15:09:53 UTC</createdTime>
+<ownerDesignName>7</ownerDesignName>
+<engineerTo>
+<item key="7EFB1058-02E0-50A3-0F3E-B112FD85D9DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ValorServicio" id="47C5D83A-6ADF-4928-3B8B-CFC6E34E6E0D">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 15:10:02 UTC</createdTime>
+<ownerDesignName>7</ownerDesignName>
+<engineerTo>
+<item key="7EFB1058-02E0-50A3-0F3E-B112FD85D9DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="21A80F4F-E3BA-8D34-B562-BC485B9BC703" name="Servicio PK">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 15:10:45 UTC</createdTime>
+<ownerDesignName>7</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7EFB1058-02E0-50A3-0F3E-B112FD85D9DF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8287E453-075D-6847-9B75-E89721BF8906</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

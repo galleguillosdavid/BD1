@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4CF1216A-4BCB-7210-C11F-D00154274C16" name="Empleado">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 16:28:12 UTC</createdTime>
+<generatorID>F552B0FC-6B16-6B85-82AD-FAD7E6933222</generatorID>
+<ownerDesignName>7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idempleado" id="106106A1-9995-9980-5174-695B4B366FE3">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 16:28:12 UTC</createdTime>
+<generatorID>C7920C42-3DB4-0404-268B-2BAF04673FB0</generatorID>
+<ownerDesignName>7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NombreEmpleado" id="0F491A72-F0CD-A8F1-BB5C-59B5A8C11531">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 16:28:12 UTC</createdTime>
+<generatorID>F3072977-C761-6A01-8EEC-7452CA7979FD</generatorID>
+<ownerDesignName>7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaIngreso" id="D70BE6DE-7534-E115-545B-D50965D2AC46">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 16:28:12 UTC</createdTime>
+<generatorID>2B13C6B9-BCCE-50EA-80B6-FDB21B10E0FB</generatorID>
+<ownerDesignName>7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C480B2D0-586B-29BA-A49A-CFE9E6F060E2" name="Empleado_PK">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 16:28:12 UTC</createdTime>
+<generatorID>F019B7ED-0BDD-A3EF-7A99-7960253CC608</generatorID>
+<ownerDesignName>7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="106106A1-9995-9980-5174-695B4B366FE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

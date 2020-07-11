@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="512F0030-3902-ED16-6DBB-55F6A6A28E74" name="Vehiculo">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 16:28:12 UTC</createdTime>
+<generatorID>2B77063F-002B-96C4-409B-FB166E51C775</generatorID>
+<ownerDesignName>7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdVehiculo" id="DB268147-3596-BECB-7FAF-74D6C30F7B51">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 16:28:12 UTC</createdTime>
+<generatorID>7377B72E-FC0C-1FE9-B909-4A03DDC958D6</generatorID>
+<ownerDesignName>7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MarcaVehiculo" id="803E69A8-BFC8-FE73-4BE3-4DB246A0EB52">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 16:28:12 UTC</createdTime>
+<generatorID>43CA9DD8-122E-6D8E-3B47-8C1833F3BB84</generatorID>
+<ownerDesignName>7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ModeloVehiculo" id="9650796C-ABED-3B07-D4A1-590EC596C36D">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 16:28:12 UTC</createdTime>
+<generatorID>CC63D88A-44BC-3A5C-883A-124CEB1BC40D</generatorID>
+<ownerDesignName>7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E012F17-52D0-6818-6951-D602B3FEDD1A" name="Vehiculo_PK">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 16:28:12 UTC</createdTime>
+<generatorID>7E11D83E-6E3E-80AA-E41F-D436907FDF4D</generatorID>
+<ownerDesignName>7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB268147-3596-BECB-7FAF-74D6C30F7B51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

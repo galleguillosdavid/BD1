@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4EC0633A-4363-4288-D5C6-0346A4B2FBB0" name="Pres_Serv">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 15:13:24 UTC</createdTime>
+<ownerDesignName>7</ownerDesignName>
+<engineerTo>
+<item key="7EFB1058-02E0-50A3-0F3E-B112FD85D9DF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdPresServ" id="86D8F75C-1E35-518A-5561-6891D4CBA45F">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 15:14:07 UTC</createdTime>
+<ownerDesignName>7</ownerDesignName>
+<engineerTo>
+<item key="7EFB1058-02E0-50A3-0F3E-B112FD85D9DF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="E370815A-7565-05D8-80A0-D5D5FA563990">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 15:14:35 UTC</createdTime>
+<ownerDesignName>7</ownerDesignName>
+<engineerTo>
+<item key="7EFB1058-02E0-50A3-0F3E-B112FD85D9DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idempleado" id="E067D23B-F827-4366-55C1-C4E974331BB3">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 16:26:31 UTC</createdTime>
+<generatorID>73D1FC0B-2BD1-8C63-6A93-6680FEE279DE</generatorID>
+<ownerDesignName>7</ownerDesignName>
+<engineerTo>
+<item key="7EFB1058-02E0-50A3-0F3E-B112FD85D9DF" value="true"/>
+</engineerTo>
+<referedAttribute>C7920C42-3DB4-0404-268B-2BAF04673FB0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdServicio" id="24E8F0D5-34C4-A03D-4394-F40122135BD3">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 16:26:44 UTC</createdTime>
+<generatorID>B363ACBF-C2A1-E1C3-077F-67AEEFB069F6</generatorID>
+<ownerDesignName>7</ownerDesignName>
+<engineerTo>
+<item key="7EFB1058-02E0-50A3-0F3E-B112FD85D9DF" value="true"/>
+</engineerTo>
+<referedAttribute>8287E453-075D-6847-9B75-E89721BF8906</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdVehiculo" id="9F6120DA-C9F2-5578-B07B-4B6F25DCD9A1">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 16:27:47 UTC</createdTime>
+<generatorID>5A23341E-152F-F1BA-B21E-83927346B493</generatorID>
+<ownerDesignName>7</ownerDesignName>
+<engineerTo>
+<item key="7EFB1058-02E0-50A3-0F3E-B112FD85D9DF" value="true"/>
+</engineerTo>
+<referedAttribute>7377B72E-FC0C-1FE9-B909-4A03DDC958D6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="71B8C2E3-A028-B12B-143A-2D62AD21AB4D" name="Pres_Serv PK">
+<createdBy>David</createdBy>
+<createdTime>2020-07-10 15:14:33 UTC</createdTime>
+<ownerDesignName>7</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7EFB1058-02E0-50A3-0F3E-B112FD85D9DF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>86D8F75C-1E35-518A-5561-6891D4CBA45F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
